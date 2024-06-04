@@ -12,7 +12,7 @@ module.exports.config = {
 
 
 module.exports.handleReply = async ({ handleReply, event, api }) => {
-  const { author, listRequest } = handleReply;
+  const { author, listRequeiiiiist } = handleReply;
   if (author != event.senderID) return;
   const args = event.body.replace(/ +/g, " ").toLowerCase().split(" ");
   
